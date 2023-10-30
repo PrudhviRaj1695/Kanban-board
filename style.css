@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.toolbox-prority-cont{
+    height: 3rem;
+    background-color: aliceblue;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.red{
+    background-color: red;
+    height:2rem;
+    width: 3rem;
+}
+.blue{
+    background-color:blue;
+    height:2rem;
+    width: 3rem;    
+}
+.green{
+    background-color: green;
+    height:2rem;
+    width: 3rem;
+}
+.black{
+    background-color: black;
+    height:2rem;
+    width: 3rem;
+}
+
+.action-btn-cont{
+    height: 3rem;
+    width: 7rem;
+    background-color: aliceblue;
+    margin-left: 5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.model-cont{
+    margin-top:0vh;
+    margin-left:50vh;
+    height:50vh;
+    width: 50vw;
+    background-color: grey;
+    display:none;
+    position: fixed;
+    border: 2px solid grey;
+} 
+.textarea-cont{
+    height:100%;
+    width: 75%;
+    display:flex;
+    outline:none;
+    font-size: 2rem;
+    resize: none;
+    padding:2rem;   
+    border: none;
+}
+
+.priority-color-cont{
+    background-color:aliceblue;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: 2px solid black;
+   
+
+}
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+
+.main-cont{
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+
+}
+
+.ticket-cont{
+    height:6rem;
+    width: 9rem;
+    background-color: yellow;
+}
+
+.ticket-color{
+    height: 1rem;
+    width: 9rem;
+}
+
+.ticket-id{
+    height:1rem;
+    background-color: rgb(71, 178, 171);
+    align-items: center;
+}
+.ticket-area{
+    height:8rem;
+    background-color: antiquewhite;
+}
+
+.active{
+    border: 5px solid yellow;
+}
